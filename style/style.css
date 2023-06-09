@@ -6,7 +6,8 @@
 body header {
   width: 100%;
   background-color: #8279b6;
-  font-family: sans-serif; }
+  font-family: sans-serif; 
+}
   body header nav {
     max-width: 1200px;
     margin: auto;
@@ -30,6 +31,7 @@ body header {
 body main {
   background-color: #9e99beda; 
   color: #ccc;
+  
 }
 
 body main .titulo{
@@ -46,16 +48,24 @@ body main .bienvenido{
 
 }
 
-body main p{
-  text-align: center;
 
-}
 
 body footer {
-  background-color: #8279b6; }
-  body footer .huno {
-    color: #6e20a6;
-    text-align: center; }
+  background-color: #8279b6;
+  }
+  body footer .huno{
+    color: #2c1b38;
+    text-align: center; 
+    font-family: 'Bitter', serif;
+}
+body footer .hdos{
+  color: #000;
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
 
 body main div {
   display: flex;
@@ -125,14 +135,14 @@ main .galeria{
     }
     
 
-
-
 .mainn{
   background: url(../img/Taylor\ \(1\).png) no-repeat  center fixed;
   background-size: cover;
-  height: 600px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.589)), url("../img/Taylor\ \(1\).png");
+  height: 400px;
 }
+
+
 
 .premios{
   height: 100px;
@@ -154,3 +164,41 @@ main div form {
   margin: 40px;
 }
 
+
+
+
+
+.texto{
+  color: #000000;
+  text-align: center;
+  margin: 5px;
+  font-family: sans-serif; 
+
+}
+
+.textoblanco{
+  color: #ccc;
+text-align: center;
+
+}
+
+.fter {
+ margin-left: 46%;
+  }
+
+body footer img{
+    width: 5%;
+  }
+  
+
+  .foto{
+  width: 15%;
+  }
+
+
+  .contacto{ 
+    background: url(../img/dos.jpg) no-repeat  center fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.589)), url("../img/dos.jpg");
+  height: 150px;
+  }
