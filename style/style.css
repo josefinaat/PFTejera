@@ -46,6 +46,11 @@ body main .bienvenido{
 
 }
 
+body main p{
+  text-align: center;
+
+}
+
 body footer {
   background-color: #8279b6; }
   body footer .huno {
